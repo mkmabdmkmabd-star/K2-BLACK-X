@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K2 BlackX - الدليل والمنظومة التقنية الشاملة</title>
+  <meta name="description" content="منصة K2 BlackX المتكاملة للخدمات والحلول التقنية الشاملة عبر 15 قسماً تخصصياً تشمل الأمن السيبراني، التحليل الجنائي، أنظمة Linux، البرمجة، والذكاء الاصطناعي.">
+  
+  <!-- خط Cairo الرسمي -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Cairo', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-emerald-500/30 selection:text-emerald-300">
+
+  <!-- شريط التنقل العلوي -->
+  <header class="sticky top-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-emerald-400 via-teal-500 to-cyan-600 flex items-center justify-center font-mono font-black text-slate-950 text-xl shadow-lg shadow-emerald-500/20">
+          K2
+        </div>
+        <div>
+          <div class="font-black text-lg tracking-wider text-white flex items-center gap-1.5 font-mono">
+            K2 <span class="text-emerald-400">BlackX</span>
+          </div>
+          <div class="text-[10px] text-slate-400 tracking-widest uppercase font-mono">Cyber & Tech Solutions</div>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/9647860095353" target="_blank" rel="noopener noreferrer" class="hidden sm:flex items-center gap-2 px-4 py-2.5 bg-emerald-500/15 hover:bg-emerald-500/25 border border-emerald-500/40 text-emerald-300 rounded-xl text-xs font-bold transition">
+          <svg class="w-4 h-4 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.541 1.938.834 2.791.834 3.181 0 5.767-2.586 5.768-5.766 0-3.18-2.587-5.766-5.768-5.766zm9.969 5.766c0 5.514-4.486 10-10 10-1.724 0-3.364-.442-4.801-1.229l-5.699 1.492 1.521-5.556c-.886-1.503-1.37-3.238-1.37-5.057 0-5.514 4.486-10 10-10s10 4.486 10 10z"/></svg>
+          <span>واتساب مباشر</span>
+        </a>
+        <a href="#services-list" class="px-5 py-2.5 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-slate-950 rounded-xl text-xs sm:text-sm font-black transition shadow-lg shadow-emerald-500/20">
+          تصفح الـ 15 قسماً
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- القسم الترحيبي الرئيسي (Hero) -->
+  <section class="relative py-20 px-4 sm:px-6 lg:px-8 border-b border-slate-800/80 overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-emerald-950/20 via-slate-950 to-slate-950 pointer-events-none"></div>
+    <div class="max-w-5xl mx-auto text-center relative z-10">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-mono font-bold mb-6">
+        <span>⚡ المنصة التقنية المتكاملة • 15 قسماً تخصصياً</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-6">
+        المنظومة الاحترافية للحلول <br>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">
+          السيبرانية والبرمجية المتقدمة
+        </span>
+      </h1>
+      <p class="text-base sm:text-xl text-slate-400 max-w-3xl mx-auto mb-10 leading-relaxed">
+        توفر K2 BlackX تغطية تقنية شاملة من خلال 15 قسماً تخصصياً تشمل الأمن السيبراني، التحقيق الجنائي الرقمي، هندسة البرمجيات، الذكاء الاصطناعي، واستعادة البيانات وفق أعلى معايير الجودة والسرية.
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        <a href="#services-list" class="px-7 py-4 rounded-2xl text-base font-black bg-gradient-to-r from-emerald-500 to-teal-600 text-slate-950 hover:from-emerald-400 hover:to-teal-500 shadow-xl shadow-emerald-500/25 transition">
+          استكشف كافة الخدمات
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- قائمة الأقسام والخدمات الـ 15 -->
+  <main id="services-list" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h2 class="text-2xl sm:text-4xl font-black text-white mb-4">أقسام منظومة K2 BlackX</h2>
+      <p class="text-slate-400 text-sm sm:text-base">15 قسماً تخصصياً تضم كافة مجالات تكنولوجيا المعلومات والحماية والتطوير</p>
+    </div>
+
+    <!-- شبكة الأقسام الـ 15 موسعة وتلائم الصفحة -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
+
+      <!-- القسم 1: الأمن السيبراني -->
+      <div class="bg-slate-900/80 border-2 border-emerald-500/40 rounded-3xl p-7 sm:p-8 hover:border-emerald-400 hover:shadow-2xl hover:shadow-emerald-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">الأمن السيبراني</h3>
+            <span class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 font-mono font-black flex items-center justify-center text-base border border-emerald-500/30">01</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">حماية متقدمة للبنى التحتية، اختبار الاختراق الأخلاقي، وسد الثغرات قبل استغلالها.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 البرمجة المتخصصة في الأمن السيبراني</li>
+            <li class="flex items-center gap-2.5">🔹 أدوات وحلول جدران الحماية وSIEM</li>
+            <li class="flex items-center gap-2.5">🔹 فحص أمان المواقع الإلكترونية (VAPT)</li>
+            <li class="flex items-center gap-2.5">🔹 تحليل البرمجيات والملفات المشبوهة</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+خدمات+الأمن+السيبراني" target="_blank" class="block text-center py-3.5 px-4 bg-emerald-500/15 hover:bg-emerald-500/25 border-2 border-emerald-500/40 hover:border-emerald-400 text-emerald-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 2: التحقيق الجنائي الرقمي -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-cyan-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-cyan-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">التحقيق الجنائي الرقمي</h3>
+            <span class="w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 font-mono font-black flex items-center justify-center text-base border border-cyan-500/30">02</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">جمع الأدلة الرقمية الجنائية، تتبع الاختراقات، واستخراج السجلات المشفرة وتحليل الحوادث.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 جمع وتحريز الأدلة الرقمية الجنائية</li>
+            <li class="flex items-center gap-2.5">🔹 تحليل أسباب حوادث الاختراق (RCA)</li>
+            <li class="flex items-center gap-2.5">🔹 تحليل سجلات الأنظمة وكشف التلاعب</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+التحقيق+الجنائي+الرقمي" target="_blank" class="block text-center py-3.5 px-4 bg-cyan-500/15 hover:bg-cyan-500/25 border-2 border-cyan-500/40 hover:border-cyan-400 text-cyan-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 3: أنظمة لينكس وكالي -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-teal-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-teal-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">أنظمة Linux و Kali Linux</h3>
+            <span class="w-10 h-10 rounded-xl bg-teal-500/20 text-teal-400 font-mono font-black flex items-center justify-center text-base border border-teal-500/30">03</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">إدارة وتصليد خوادم لينكس، بناء بيئات الفحص الأمني، والسكربتات التلقائية المتقدمة.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 إعداد وتصليد خوادم Linux Hardening</li>
+            <li class="flex items-center gap-2.5">🔹 تهيئة بيئات Kali Linux الاحترافية</li>
+            <li class="flex items-center gap-2.5">🔹 كتابة سكربتات Bash Automation</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+أنظمة+Linux" target="_blank" class="block text-center py-3.5 px-4 bg-teal-500/15 hover:bg-teal-500/25 border-2 border-teal-500/40 hover:border-teal-400 text-teal-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 4: البرمجة والتطوير -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-indigo-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-indigo-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">البرمجة وتطوير البرمجيات</h3>
+            <span class="w-10 h-10 rounded-xl bg-indigo-500/20 text-indigo-400 font-mono font-black flex items-center justify-center text-base border border-indigo-500/30">04</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">برمجة الأنظمة المستقلة، واجهات البرمجة APIs، وتطبيقات سطح المكتب والأجهزة بكفاءة وسرعة.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 تطوير برمجيات مخصصة بلغة بايثون وGo</li>
+            <li class="flex items-center gap-2.5">🔹 بناء وتأمين واجهات البرمجة RESTful APIs</li>
+            <li class="flex items-center gap-2.5">🔹 تحسين أداء وحل أخطاء الأكواد البرمجية</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+البرمجة+وتطوير+البرمجيات" target="_blank" class="block text-center py-3.5 px-4 bg-indigo-500/15 hover:bg-indigo-500/25 border-2 border-indigo-500/40 hover:border-indigo-400 text-indigo-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 5: الويب والمتاجر الإلكترونية -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-sky-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-sky-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">الويب والمتاجر الإلكترونية</h3>
+            <span class="w-10 h-10 rounded-xl bg-sky-500/20 text-sky-400 font-mono font-black flex items-center justify-center text-base border border-sky-500/30">05</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">تصميم وبرمجة المواقع والمتاجر السريعة والمحمية ضد الهجمات الإلكترونية وبوابات الدفع.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 تطوير مواقع وتطبيقات ويب سريعة وحديثة</li>
+            <li class="flex items-center gap-2.5">🔹 بناء المتاجر الإلكترونية مع بوابات الدفع</li>
+            <li class="flex items-center gap-2.5">🔹 صيانة وترقية وتأمين المواقع القائمة</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+الويب+والمتاجر" target="_blank" class="block text-center py-3.5 px-4 bg-sky-500/15 hover:bg-sky-500/25 border-2 border-sky-500/40 hover:border-sky-400 text-sky-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 6: الأتمتة والبوتات -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-amber-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-amber-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">الأتمتة وروبوتات البرمجيات</h3>
+            <span class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 font-mono font-black flex items-center justify-center text-base border border-amber-500/30">06</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">أتمتة المهام اليومية، استخراج البيانات، وتطوير بوتات تيليغرام وواتساب الذكية المتصلة بالأنظمة.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 تطوير بوتات تواصل اجتماعي ذكية</li>
+            <li class="flex items-center gap-2.5">🔹 سحب وأتمتة البيانات Web Scraping</li>
+            <li class="flex items-center gap-2.5">🔹 أتمتة الإجراءات المتكررة وسير العمل</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+الأتمتة+والبوتات" target="_blank" class="block text-center py-3.5 px-4 bg-amber-500/15 hover:bg-amber-500/25 border-2 border-amber-500/40 hover:border-amber-400 text-amber-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 7: الذكاء الاصطناعي -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-purple-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-purple-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">الذكاء الاصطناعي وعلوم البيانات</h3>
+            <span class="w-10 h-10 rounded-xl bg-purple-500/20 text-purple-400 font-mono font-black flex items-center justify-center text-base border border-purple-500/30">07</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">بناء وتدريب نماذج التعلم الآلي والربط مع نماذج LLM وتحليل النصوص والصور والبيانات الضخمة.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 تكامل حلول النماذج اللغوية الكبيرة LLMs</li>
+            <li class="flex items-center gap-2.5">🔹 نماذج الرؤية الحاسوبية ومعالجة الصور</li>
+            <li class="flex items-center gap-2.5">🔹 خوارزميات التنبؤ وتحليل الأنماط</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+الذكاء+الاصطناعي" target="_blank" class="block text-center py-3.5 px-4 bg-purple-500/15 hover:bg-purple-500/25 border-2 border-purple-500/40 hover:border-purple-400 text-purple-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 8: قواعد البيانات -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-blue-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-blue-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">قواعد البيانات وتحليل البيانات</h3>
+            <span class="w-10 h-10 rounded-xl bg-blue-500/20 text-blue-400 font-mono font-black flex items-center justify-center text-base border border-blue-500/30">08</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">تصميم هياكل البيانات، تحسين استعلامات SQL، ولوحات القيادة التفاعلية للشركات والمؤسسات.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 هندسة وتحسين استعلامات SQL/NoSQL</li>
+            <li class="flex items-center gap-2.5">🔹 إنشاء لوحات القيادة التفاعلية Dashboards</li>
+            <li class="flex items-center gap-2.5">🔹 معالجة وتنظيف مخازن البيانات الضخمة</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+قواعد+البيانات" target="_blank" class="block text-center py-3.5 px-4 bg-blue-500/15 hover:bg-blue-500/25 border-2 border-blue-500/40 hover:border-blue-400 text-blue-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 9: الدعم الفني عن بُعد -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-rose-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-rose-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">الدعم الفني عن بُعد</h3>
+            <span class="w-10 h-10 rounded-xl bg-rose-500/20 text-rose-400 font-mono font-black flex items-center justify-center text-base border border-rose-500/30">09</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">حل المشكلات التقنية الطارئة للأنظمة والشبكات بأمان وسرية عبر قنوات مشفرة معتمدة.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 تشخيص الأعطال البرمجية المستعصية</li>
+            <li class="flex items-center gap-2.5">🔹 تطهير الأجهزة من الفيروسات وبرامج التجسس</li>
+            <li class="flex items-center gap-2.5">🔹 تهيئة برامج وشبكات العمل الافتراضية VPN</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+الدعم+الفني" target="_blank" class="block text-center py-3.5 px-4 bg-rose-500/15 hover:bg-rose-500/25 border-2 border-rose-500/40 hover:border-rose-400 text-rose-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 10: استعادة البيانات -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-orange-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-orange-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">استعادة البيانات والنسخ الاحتياطي</h3>
+            <span class="w-10 h-10 rounded-xl bg-orange-500/20 text-orange-400 font-mono font-black flex items-center justify-center text-base border border-orange-500/30">10</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">إنقاذ الملفات المحذوفة والتالفة وبناء خطط التعافي من الكوارث والنسخ الاحتياطي المتين.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 استرجاع الملفات من وسائط التخزين التالفة</li>
+            <li class="flex items-center gap-2.5">🔹 استعادة الأقسام المفقودة والمشفرة</li>
+            <li class="flex items-center gap-2.5">🔹 بناء منظومات النسخ التلقائي المشفر 3-2-1</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+استعادة+البيانات" target="_blank" class="block text-center py-3.5 px-4 bg-orange-500/15 hover:bg-orange-500/25 border-2 border-orange-500/40 hover:border-orange-400 text-orange-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 11: العتاد وإنترنت الأشياء -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-lime-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-lime-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">الأجهزة المدمجة وإنترنت الأشياء</h3>
+            <span class="w-10 h-10 rounded-xl bg-lime-500/20 text-lime-400 font-mono font-black flex items-center justify-center text-base border border-lime-500/30">11</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">برمجة وتصميم منظومات Arduino و Raspberry Pi وأجهزة الاستشعار الذكية وتأمينها.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 تطوير نماذج إنترنت الأشياء IoT الذكية</li>
+            <li class="flex items-center gap-2.5">🔹 برمجة المايكروكنترولر والمستشعرات</li>
+            <li class="flex items-center gap-2.5">🔹 تأمين اتصالات وبروتوكولات أجهزة الـ IoT</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+إنترنت+الأشياء" target="_blank" class="block text-center py-3.5 px-4 bg-lime-500/15 hover:bg-lime-500/25 border-2 border-lime-500/40 hover:border-lime-400 text-lime-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 12: المشاريع التقنية المتكاملة -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-violet-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-violet-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">المشاريع التقنية ومشاريع التخرج</h3>
+            <span class="w-10 h-10 rounded-xl bg-violet-500/20 text-violet-400 font-mono font-black flex items-center justify-center text-base border border-violet-500/30">12</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">إدارة وتصميم الأنظمة ومشاريع التخرج البرمجية والسيبرانية من الفكرة حتى التسليم والتوثيق الكامل.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 بناء مشاريع تخرج تخصصية احترافية</li>
+            <li class="flex items-center gap-2.5">🔹 الإشراف الفني وإدارة دورة حياة المشروع</li>
+            <li class="flex items-center gap-2.5">🔹 التوثيق البرمجي والعروض التقديمية</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+المشاريع+المتكاملة" target="_blank" class="block text-center py-3.5 px-4 bg-violet-500/15 hover:bg-violet-500/25 border-2 border-violet-500/40 hover:border-violet-400 text-violet-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 13: الأبحاث والاستشارات الأكاديمية -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-pink-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-pink-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">الأبحاث والاستشارات الأكاديمية</h3>
+            <span class="w-10 h-10 rounded-xl bg-pink-500/20 text-pink-400 font-mono font-black flex items-center justify-center text-base border border-pink-500/30">13</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">إعداد التجارب والمحاكاة التقنية ومراجعة أوراق البحث في علوم الحاسوب والأمن السيبراني.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 تنفيذ بيئات المحاكاة والتجارب المعملية</li>
+            <li class="flex items-center gap-2.5">🔹 مراجعة وتدقيق الأوراق والمنهجيات العلمية</li>
+            <li class="flex items-center gap-2.5">🔹 إعداد المراجع البرمجية والتحليلات الإحصائية</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+الاستشارات+الأكاديمية" target="_blank" class="block text-center py-3.5 px-4 bg-pink-500/15 hover:bg-pink-500/25 border-2 border-pink-500/40 hover:border-pink-400 text-pink-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 14: الهوية البصرية والتصميم التقني -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-fuchsia-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-fuchsia-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">الهوية البصرية وتصميم الواجهات</h3>
+            <span class="w-10 h-10 rounded-xl bg-fuchsia-500/20 text-fuchsia-400 font-mono font-black flex items-center justify-center text-base border border-fuchsia-500/30">14</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">تصميم واجهات المستخدم UI/UX التفاعلية وتصميم الهويات البصرية والشعارات المبتكرة للمؤسسات.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 تصميم واجهات وتجارب المستخدم UI/UX</li>
+            <li class="flex items-center gap-2.5">🔹 بناء الهويات البصرية الكاملة للشركات</li>
+            <li class="flex items-center gap-2.5">🔹 تصميم الرسوم البيانية والمخططات التقنية</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+التصميم+والهوية+البصرية" target="_blank" class="block text-center py-3.5 px-4 bg-fuchsia-500/15 hover:bg-fuchsia-500/25 border-2 border-fuchsia-500/40 hover:border-fuchsia-400 text-fuchsia-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+      <!-- القسم 15: التدريب والتأهيل التقني -->
+      <div class="bg-slate-900/80 border-2 border-slate-800 hover:border-emerald-400/60 rounded-3xl p-7 sm:p-8 hover:shadow-2xl hover:shadow-emerald-500/10 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            <h3 class="text-xl sm:text-2xl font-black text-white">التدريب والتأهيل وبناء المهارات</h3>
+            <span class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 font-mono font-black flex items-center justify-center text-base border border-emerald-500/30">15</span>
+          </div>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-medium">ورش عمل تطبيقية وتأهيل عملي للكوادر والمختصين في مجالات الأمن والبرمجة مع برامج تدريبية متخصصة.</p>
+          <ul class="text-sm text-slate-200 space-y-3 mb-8 font-medium">
+            <li class="flex items-center gap-2.5">🔹 تدريب عملي تطبيقي 1-على-1 للمطورين</li>
+            <li class="flex items-center gap-2.5">🔹 ورش تدريبية في اختبار الاختراق الأخلاقي</li>
+            <li class="flex items-center gap-2.5">🔹 خطط تدريب مخصصة لفرق العمل المؤسسية</li>
+          </ul>
+        </div>
+        <a href="https://wa.me/9647860095353?text=أرغب+بالاستفسار+عن+التدريب+والتأهيل" target="_blank" class="block text-center py-3.5 px-4 bg-emerald-500/15 hover:bg-emerald-500/25 border-2 border-emerald-500/40 hover:border-emerald-400 text-emerald-300 rounded-2xl text-sm font-black transition shadow-sm">
+          طلب استشارة وخدمات هذا القسم
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- تذييل الصفحة -->
+  <footer class="bg-slate-950 border-t border-slate-800 py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto space-y-8">
+      <!-- شريط الإشعار الأمني والقانوني البارز على طول الصفحة -->
+      <div class="w-full p-6 sm:p-8 rounded-2xl bg-gradient-to-r from-slate-900 via-slate-900/95 to-slate-900 border-2 border-emerald-500/60 shadow-2xl shadow-black/80">
+        <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
+          <div class="w-16 h-16 rounded-2xl bg-emerald-500/20 border-2 border-emerald-500/50 flex items-center justify-center text-emerald-400 shrink-0 text-3xl shadow-inner">
+            🛡️
+          </div>
+          <div class="space-y-3 text-right flex-1">
+            <div class="flex flex-wrap items-center gap-3">
+              <span class="text-xl sm:text-2xl font-black text-emerald-400 tracking-wide">إشعار قانوني وإخلاء مسؤولية أمنية:</span>
+              <span class="text-xs sm:text-sm font-bold font-mono px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
+                تنبيه نظامي مُلزم
+              </span>
+            </div>
+            <p class="text-base sm:text-lg md:text-xl text-slate-100 leading-relaxed font-semibold">
+              تُقدَّم كافة خدمات الأمن السيبراني واختبار الاختراق والتحليل الجنائي الرقمي حصراً لأغراض تعليمية، وتدريبية، واختبارات حماية مشروعة؛ وتخضع للتشريعات واللوائح المنظمة لمكافحة جرائم تقنية المعلومات. ويُشترط لتنفيذ أي فحص أمني وجود تفويض رسمي صريح وإذن خطي مسبق من المالك الشرعي للنظام أو الجهة المخولة قانوناً. وتُخلي إدارة المنصة وكوادرها مسؤوليتها القانونية والجنائية والمدنية التامة عن أي سوء استخدام، أو تطبيق غير مصرّح به، أو أضرار ناتجة عن تشغيل هذه الأدوات خارج إطارها الأخلاقي والمصرح به نظاماً.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center text-sm sm:text-base text-slate-400 font-mono pt-4 border-t border-slate-900">
+        © 2026 K2 BlackX - جميع الحقوق محفوظة • منظومة الخدمات والحلول التقنية المتكاملة
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

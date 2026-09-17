@@ -1,0 +1,6 @@
+{
+  "name": "K2 BlackX - الخدمات والحلول التقنية",
+  "description": "منصة K2 BlackX المتكاملة للخدمات والحلول التقنية الشاملة عبر 15 قسماً تخصصياً تشمل الأمن السيبراني، التحليل الجنائي، أنظمة Linux، البرمجة، والذكاء الاصطناعي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
